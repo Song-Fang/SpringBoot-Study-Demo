@@ -13,10 +13,12 @@
 
 server:
   port: 8080
+  context-path: /boot02
 
-spring:
-  profiles:
-    active: dev
+
+#spring:
+#  profiles:
+#    active: dev
 ---
 server:
   port: 8081
