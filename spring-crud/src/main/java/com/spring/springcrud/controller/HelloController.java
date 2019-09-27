@@ -10,14 +10,14 @@ import java.util.Map;
 public class HelloController {
     @ResponseBody
     @RequestMapping("/hello")
-    public String hello(){
+    public String hello() {
         return "Hello World!";
     }
 
 
     @RequestMapping("/success")
-    public String success(Map<String,Object> map){
-        map.put("hello","你好");
+    public String success(Map<String, Object> map) {
+        map.put("hello", "你好");
         return "success";
     }
 }
